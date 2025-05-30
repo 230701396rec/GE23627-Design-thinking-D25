@@ -35,18 +35,18 @@ class _PaymentPageState extends State<PaymentPage> {
       js.context.callMethod('openRazorpayCheckout', [
         widget.totalAmount,
         'user@example.com',
-        '9876543210'
+        ''
       ]);
     } else {
       var options = {
-        'key': 'rzp_test_DWEbGS1fE5WWIv',
+        'key': '',
         'amount': (widget.totalAmount * 100).toInt(),
         'currency': 'INR',
         'name': 'Virtual Library',
         'description': 'Books Rental',
         'prefill': {
-          'contact': '9080791626',
-          'email': 'praveenrajmuruganantham@gmail.com'
+          'contact': '',
+          'email': ''
         },
         'theme': {'color': '#FF9800'},
       };
