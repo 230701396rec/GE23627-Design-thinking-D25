@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAVTkYJlXHb37rEoUJfU324bTTDljPcIns',
-    appId: '1:257618688270:web:239d96549c7002de307f5f',
-    messagingSenderId: '257618688270',
-    projectId: 'design-thinking-project-df689',
-    authDomain: 'design-thinking-project-df689.firebaseapp.com',
-    storageBucket: 'design-thinking-project-df689.firebasestorage.app',
-    measurementId: 'G-2FV2DD1L9L',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
+    measurementId: '',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAFKkgOhu0pBPUa79puBRxNAivTruG009o',
-    appId: '1:257618688270:android:b08634cfb9a6465a307f5f',
-    messagingSenderId: '257618688270',
-    projectId: 'design-thinking-project-df689',
-    storageBucket: 'design-thinking-project-df689.firebasestorage.app',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBhYdxwhLDTfyjdj-i8RIjPLj0HWWYVCvk',
-    appId: '1:257618688270:ios:02b524785a2eaba7307f5f',
-    messagingSenderId: '257618688270',
-    projectId: 'design-thinking-project-df689',
-    storageBucket: 'design-thinking-project-df689.firebasestorage.app',
-    iosBundleId: 'com.example.app',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBhYdxwhLDTfyjdj-i8RIjPLj0HWWYVCvk',
-    appId: '1:257618688270:ios:02b524785a2eaba7307f5f',
-    messagingSenderId: '257618688270',
-    projectId: 'design-thinking-project-df689',
-    storageBucket: 'design-thinking-project-df689.firebasestorage.app',
-    iosBundleId: 'com.example.app',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAVTkYJlXHb37rEoUJfU324bTTDljPcIns',
-    appId: '1:257618688270:web:5b7b088812400000307f5f',
-    messagingSenderId: '257618688270',
-    projectId: 'design-thinking-project-df689',
-    authDomain: 'design-thinking-project-df689.firebaseapp.com',
-    storageBucket: 'design-thinking-project-df689.firebasestorage.app',
-    measurementId: 'G-WHNDQQTVC1',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
+    measurementId: '',
   );
 }
